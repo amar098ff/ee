@@ -1,0 +1,85 @@
+﻿node : C:\Users\subra
+\Desktop\my\my projec
+ts\ee\backend\node_mo
+dules\stripe\cjs\stri
+pe.core.js:158
+At line:1 char:1
++ node server.js 
+*>&1 | Out-File 
+-FilePath 
+error_v2.log 
+-Encoding utf8
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (C:\User   
+ s\subra\...ipe.c    
+ore.js:158:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+                
+throw new 
+Error('Neither 
+apiKey nor 
+config.authenticator 
+provided');
+                ^
+
+Error: Neither 
+apiKey nor 
+config.authenticator 
+provided
+    at Stripe._setAut
+henticator (C:\Users\
+subra\Desktop\my\my p
+rojects\ee\backend\no
+de_modules\stripe\cjs
+\stripe.core.js:158:2
+3)
+    at new Stripe (C:
+\Users\subra\Desktop\
+my\my projects\ee\bac
+kend\node_modules\str
+ipe\cjs\stripe.core.j
+s:96:14)
+    at Stripe (C:\Use
+rs\subra\Desktop\my\m
+y projects\ee\backend
+\node_modules\stripe\
+cjs\stripe.core.js:52
+:20)
+    at 
+Object.<anonymous> (C
+:\Users\subra\Desktop
+\my\my projects\ee\ba
+ckend\controllers\pay
+mentController.js:1:3
+3)
+    at 
+Module._compile (node
+:internal/modules/cjs
+/loader:1565:14)
+    at Object..js (no
+de:internal/modules/c
+js/loader:1708:10)
+    at Module.load (n
+ode:internal/modules/
+cjs/loader:1318:32)
+    at 
+Function._load (node:
+internal/modules/cjs/
+loader:1128:12)
+    at TracingChannel
+.traceSync (node:diag
+nostics_channel:322:1
+4)
+    at 
+wrapModuleLoad (node:
+internal/modules/cjs/
+loader:219:24)
+
+Node.js v22.12.0
